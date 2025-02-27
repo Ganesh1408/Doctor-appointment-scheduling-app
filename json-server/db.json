@@ -1,0 +1,247 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Kranthi Kumar",
+      "specialization": "Cardiologist",
+      "experience": "10 years",
+      "hospital": "Apollo Hospitals",
+      "contact": "+91 98765 43210",
+      "ratings": 4.8,
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Amit Sharma",
+          "reviewer_image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "rating": 5,
+          "review_text": "Dr. Kranthi is very patient and explains everything clearly."
+        },
+        {
+          "reviewer_name": "Sneha Verma",
+          "reviewer_image": "https://randomuser.me/api/portraits/women/12.jpg",
+          "rating": 4.5,
+          "review_text": "Excellent treatment, I feel much better now!"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. Ramadevi",
+      "specialization": "Dermatologist",
+      "experience": "8 years",
+      "hospital": "Fortis Hospital",
+      "contact": "+91 87654 32109",
+      "ratings": 4.6,
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Priya Kapoor",
+          "reviewer_image": "https://randomuser.me/api/portraits/women/13.jpg",
+          "rating": 5,
+          "review_text": "My skin condition improved significantly after her treatment!"
+        },
+        {
+          "reviewer_name": "Rahul Mehta",
+          "reviewer_image": "https://randomuser.me/api/portraits/men/14.jpg",
+          "rating": 4.3,
+          "review_text": "Very knowledgeable and friendly doctor."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Ramesh Rao",
+      "specialization": "Orthopedic Surgeon",
+      "experience": "12 years",
+      "hospital": "AIIMS",
+      "contact": "+91 76543 21098",
+      "ratings": 4.9,
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Arun Sharma",
+          "reviewer_image": "https://randomuser.me/api/portraits/men/15.jpg",
+          "rating": 4.9,
+          "review_text": "Highly skilled and professional surgeon."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Pediatrician",
+      "experience": "7 years",
+      "hospital": "Max Healthcare",
+      "contact": "+91 65432 10987",
+      "ratings": 4.5,
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Neha Gupta",
+          "reviewer_image": "https://randomuser.me/api/portraits/women/16.jpg",
+          "rating": 4.7,
+          "review_text": "She is great with kids and very caring!"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dr. Arvind Patel",
+      "specialization": "Neurologist",
+      "experience": "15 years",
+      "hospital": "Medanta",
+      "contact": "+91 54321 09876",
+      "ratings": 4.7,
+      "image": "https://randomuser.me/api/portraits/men/5.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Suresh Kumar",
+          "reviewer_image": "https://randomuser.me/api/portraits/men/17.jpg",
+          "rating": 5,
+          "review_text": "One of the best neurologists, diagnosed my problem quickly!"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dr. Sneha Verma",
+      "specialization": "Gynecologist",
+      "experience": "9 years",
+      "hospital": "Cloudnine Hospital",
+      "contact": "+91 43210 98765",
+      "ratings": 4.6,
+      "image": "https://randomuser.me/api/portraits/women/6.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Ritika Mehta",
+          "reviewer_image": "https://randomuser.me/api/portraits/women/18.jpg",
+          "rating": 4.5,
+          "review_text": "Very caring and professional."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Dr. Manish Tiwari",
+      "specialization": "Urologist",
+      "experience": "11 years",
+      "hospital": "Fortis Hospital",
+      "contact": "+91 32109 87654",
+      "ratings": 4.4,
+      "image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Anil Sharma",
+          "reviewer_image": "https://randomuser.me/api/portraits/men/19.jpg",
+          "rating": 4.3,
+          "review_text": "Expert in urology, explains things very well."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Dr. Kavita Joshi",
+      "specialization": "Ophthalmologist",
+      "experience": "13 years",
+      "hospital": "Narayana Nethralaya",
+      "contact": "+91 21098 76543",
+      "ratings": 4.9,
+      "image": "https://randomuser.me/api/portraits/women/8.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Pooja Reddy",
+          "reviewer_image": "https://randomuser.me/api/portraits/women/20.jpg",
+          "rating": 5,
+          "review_text": "Helped me with my vision problems effectively!"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Dr. Suresh Gupta",
+      "specialization": "General Physician",
+      "experience": "20 years",
+      "hospital": "Apollo Hospitals",
+      "contact": "+91 10987 65432",
+      "ratings": 4.7,
+      "image": "https://randomuser.me/api/portraits/men/9.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Arjun Mehta",
+          "reviewer_image": "https://randomuser.me/api/portraits/men/21.jpg",
+          "rating": 4.8,
+          "review_text": "Great doctor for general health issues!"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Dr. Meera Reddy",
+      "specialization": "Endocrinologist",
+      "experience": "10 years",
+      "hospital": "AIIMS",
+      "contact": "+91 09876 54321",
+      "ratings": 4.5,
+      "image": "https://randomuser.me/api/portraits/women/10.jpg",
+      "reviews": [
+        {
+          "reviewer_name": "Kavya Sharma",
+          "reviewer_image": "https://randomuser.me/api/portraits/women/22.jpg",
+          "rating": 4.6,
+          "review_text": "Very knowledgeable and patient-friendly!"
+        }
+      ]
+    }
+  ],
+  "Appointments": [
+    {
+      "id": "155b",
+      "name": "Dr. Ramadevi",
+      "specialization": "Dermatologist",
+      "date": "2025-03-06",
+      "time": "14:00"
+    },
+    {
+      "id": "4228",
+      "name": "Dr. Ramadevi",
+      "specialization": "Dermatologist",
+      "date": "2025-03-07",
+      "time": "14:00"
+    },
+    {
+      "id": "055b",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Pediatrician",
+      "date": "2025-02-28",
+      "time": "13:30"
+    },
+    {
+      "id": "63a4",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Pediatrician",
+      "date": "2025-02-27",
+      "time": "14:00"
+    },
+    {
+      "id": "a9d3",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Pediatrician",
+      "date": "2025-02-27",
+      "time": "21:30"
+    },
+    {
+      "id": "e7a7",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Pediatrician",
+      "date": "2025-02-28",
+      "time": "13:00"
+    },
+    {
+      "id": "aec2",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Pediatrician",
+      "date": "2025-03-01",
+      "time": "14:30"
+    }
+  ]
+}
