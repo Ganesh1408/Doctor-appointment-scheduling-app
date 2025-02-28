@@ -7,7 +7,7 @@ export const ReviewsContainer = styled.div`
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin:30px;
+    margin-bottom:20px;
 `;
 
 export const List = styled.li`

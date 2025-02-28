@@ -15,10 +15,13 @@ import Reviews from "../Reviews";
 function Home() {
   const [doctors, setDoctors] = useState([]);
   const [input, setInput] = useState([]);
+  const [search, setSearch] = useState("");
+
   const inputRef = useRef();
   const fetchDoctors = async () => {
+    
     try {
-      const url = `http://localhost:3000/doctors?specialization=${input}`;
+      const url =  `http://localhost:3000/doctors?specialization=${search}`;
       const res = await fetch(url);
       if (!res.ok) {
         throw new Error("fetch failed");
@@ -34,13 +37,24 @@ function Home() {
 
   useEffect(() => {
     inputRef.current.focus();
+    fetchDoctors()
   }, []);
 
   
 
   useEffect(() => {
-    fetchDoctors();
-  }, [input]);
+    fetchDoctors()
+  }, [search]);
+
+  const handleKeyDown=(e)=>{
+    if(e.key==="Enter"){
+      setSearch(input.trim())
+     }else{
+        setSearch("")   
+       
+     }
+  }
+
   return (
     <Container>
       
@@ -50,6 +64,7 @@ function Home() {
         ref={inputRef}
         value={input}
         onChange={(e) => setInput(e.target.value)}
+        onKeyDown={handleKeyDown}
         placeholder="Enter  specialization"
       />
       
